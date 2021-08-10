@@ -1,19 +1,32 @@
 const data = [
     {
         id: 1,
-        type: 'toro'
+        type: 'toro',
+        number: 11,
+        milk: false,
+        cuernos: 'No. of Horns'
+
+
     },
     {
         id: 2,
-        type: 'vaca'
+        type: 'vaca',
+        number: 22,
+        milk: true,
+        cuernos: 'No. of Horns'
     },
     {
         id: 3,
-        type: 'becerro'
+        type: 'becerro',
+        number: 22,
+        milk: true,
     },
     {
         id: 4,
-        type: 'novillo'
+        type: 'novillo',
+        number: 22,
+        milk: false,
+        cuernos: 'No. of Horns'
     }
 ]
 
