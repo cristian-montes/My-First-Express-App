@@ -11,7 +11,7 @@
 1. `heroku login`
 1. `git remote -v` -- confirm you don't already have Heroku as a remote
 1. `heroku create [appname]`
-1. `git remote -v` -- note that heroku is now a remote
+1. `git remote -v` -- note that heroku is now a remote.
 1. add a script to your package.json so that heroku knows how to start your app
     ```json
      "scripts": {
