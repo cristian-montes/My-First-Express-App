@@ -8,14 +8,13 @@ app.get('/', (req, res) => {
 })
 
 app.get('/cows', (req, res) => {
-    // res.send(`Puppies are cute! Especially ${req.query.name}`);
     res.json(data);
   })
 
-  app.get('/cows/:id', (req, res) => {
-      const cowID = Number(req.params.id)
-      const cow = data.find((item) => item.id === cowID);
-      res.json(cow);
+app.get('/cows/:id', (req, res) => {
+    const cowID = Number(req.params.id)
+    const cow = data.find((item) => item.id === cowID);
+    res.json(cow);
   })
 
   module.exports = app;
